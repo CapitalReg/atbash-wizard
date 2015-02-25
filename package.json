@@ -1,0 +1,25 @@
+{
+  "name": "atbash-wizard",
+  "version": "0.0.1",
+  "description": "Node JS package to perform Atbash substitution cipher.",
+  "main": "atbash-wizard.js",
+  "author": "Aaron Kenney",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CapitalReg/atbash-wizard.git"
+  },
+  "keywords": [
+    "atbash",
+    "cipher",
+    "wizard",
+    "a to z"
+  ],
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/CapitalReg/atbash-wizard/issues"
+  },
+  "homepage": "http://www.capitalreg.co.uk"
+}
