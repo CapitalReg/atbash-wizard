@@ -38,7 +38,7 @@ for(var i = 0; i<words.length; i++) {
 
 	wiz.wizard(params, function(err,data) {
 
-		console.log('Word checked = ' + word);
+		console.log('Word checked = ' + params.word);
 		console.log('Response: ');
 		console.log('Error: ' + err);
 		console.log(data);

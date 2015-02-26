@@ -2,9 +2,9 @@
 var wizard = function(options,callback) {
 
 	// The word we want processing
-	var word = options.word !== undefined ? options.word : "";
+	var word = (options.word !== undefined ? options.word : "");
 	// Optional 'simon' param
-    var simon = options.simon !== undefined ? true : false;
+    var simon = (options.simon !== undefined && options.simon !== false ? true : false);
 
 	var arrswop = new Array();
 	arrswop['a'] = 'z';
@@ -38,7 +38,7 @@ var wizard = function(options,callback) {
 	var drow = '';	
 	var splot = word.toLowerCase().split('');
 		
-	if(simon) {
+	if(simon == true) {
 		// Simon wants the word returning as is (wizard = draziw)	
 	} else {
 		// Martin wants the word returning the 'right' way (wizard = wizard)

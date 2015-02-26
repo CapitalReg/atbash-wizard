@@ -1,6 +1,6 @@
 {
   "name": "atbash-wizard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node JS package to perform Atbash substitution cipher.",
   "main": "atbash-wizard.js",
   "author": "Aaron Kenney",
